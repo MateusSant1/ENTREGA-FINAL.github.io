@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+    font-family: 'Roboto', 'sans-serif';
+  }
+/*estilo dos textos---------------------------------------*/
+.titulo{
+    font-weight: 600;
+    font-size: 18px;
+    text-transform:uppercase ;
+    letter-spacing: 1px;
+}
+.texto {
+    border-radius: 10px;
+    max-width: 500px; 
+    margin-left: 6rem;
+    color: #f7f9fc;
+    padding: 2% 10%;
+    gap: 40px;
+    
+}
+#texto p {
+    margin-bottom: 5px;
+    justify-content: center;
+}
+
+/* estilo do formulário-----------------------------------*/
+.formulario{
+    margin-left: 350px;
+    margin-top: 100px;
+    max-width: 500px;
+    height: 70%;
+    width: 80%;
+    display: inline-block;
+    border-radius: 10px;
+    text-align:left;
+    justify-content: center;
+}
+label{
+    margin: 2px 8px;
+}
+.formulario p{
+    color:#d8d8d8;
+    font-size: 18px;
+    font-weight: 600;
+}
+#nome, #email{
+    background-color: #7984a9;
+    width: 300px;
+    height: 30px;
+    border-radius: 8px;
+    border: 2px solid #0e194e;
+    margin: 3px 5px;   
+}
+input::placeholder{
+    color: #0e194e;
+    font-family: 'Roboto', sans-serif;
+    margin: 2px;
+    padding: 8px 8px;
+}
+#verificacao-botao, #receber_comunicoes, #politica_privacidade{
+    border-radius: 8px;
+    border: 2px solid #0e194e;
+    margin: 2px 8px;
+    width:14px;
+    height: 14px;
+}
+.section4 a{
+    color: #a066cb
+}
+.section4 :visited{
+    color: #90278e;
+  }
+ .section4 a:hover{
+    color: #86c7ed;
+  }
+ .section4 a:active{
+    color: #86c7ed;
+  }
+  /*botao do formulario--------------------------------*/
+#codigo-promocional{
+    border-radius: 8px;
+    border: 1px solid #0e194e;
+    background-color: #7984a9;
+    color:#d8d8d8;
+    max-width: 250px;
+    height: 40px;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 15px auto;
+    display: block;
+    line-height: 40px;
+}
+/* alinhamento da div do texto e do formulario ------------------------*/
+.texto-container{
+    display: inline-block;
+    max-width: 600px;
+    vertical-align: top;
+    margin-right: 20px;
+}
+.texto-container, .formulario{
+    display: inline-block;
+    vertical-align: top;
+}
